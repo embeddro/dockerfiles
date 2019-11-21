@@ -17,7 +17,7 @@ else
 		-e UID=$(id -u) \
 		-e GID=$(id -g) \
 		--net=host \
-		--name $docker_container_name prus/kicad 
+		--name $docker_container_name $docker_image_name 
 
 fi
 
